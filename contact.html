@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta charset="utf-8">
+  <title>Damian Isaac</title>
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--Style Sheets-->
+  <link rel="stylesheet" href="resources/css/style.css">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!--Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Merriweather|Roboto&display=swap" rel="stylesheet">
+
+  <script defer src="./resources/scripts/node_modules/swup/dist/swup.min.js"></script>
+  <script defer src="./resources/scripts/index.js"></script>
+
+</head>
+
+<body class="d-flex flex-column">
+
+  <div id="content">
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-sm">
+      <a class="navbar-brand" href="#">Damian Alexander Isaac</a>
+      <ul class="navbar-nav">
+        <li class="nav-item nav-spacer">
+          <a class="nav-link" href="/index.html">About</a>
+        </li>
+        <li class="nav-item nav-spacer">
+          <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="swup" class="transition-fade">
+      <!--Contact-->
+      <section id="contact">
+        <span class="tags">
+          &#60;html&#62;
+        </span>
+        <div class="card">
+          <span class="tags">&nbsp;&#60;body&#62;</span>
+          <div class="card-body">
+            <span class="tags">&#60;h1&#62;</span>
+            <h1 class="card-title">Contact</h1>
+            <span class="tags">&#60;/h1&#62;</span>
+
+            <form id="contact-form" method="post" action="handler.php">
+              <div class="form-group">
+                <label name="name" class="contact-label">Name</label>
+                <input for="name" type="text" class="form-control" placeholder="Name" id="usr">
+              </div>
+              <div class="form-group">
+                <label name="subject" class="contact-label">Subject</label>
+                <input type="text" class="form-control" placeholder="Subject" id="subject">
+              </div>
+              <div class="form-group">
+                <label name="email" class="contact-label">Email</label>
+                <input for="email" type="email" class="form-control" placeholder="Email" id="email">
+              </div>
+              <div class="form-group">
+                <label name="message" class="contact-label">Message</label>
+                <textarea class="form-control" rows="10" placeholder="Message" id="message"></textarea>
+              </div>
+              <button type="submit" name="submit" class="btn contact-button"><span class="tags">&#60;</span>Submit<span
+                  class="tags">&#62;</span></button>
+            </form>
+
+          </div>
+          <span class="tags">&nbsp;&#60;/body&#62;</span>
+        </div>
+        <span class="tags">
+          &#60;html&#62;
+        </span>
+      </section>
+    </main>
+
+  </div>
+  <!--Footer-->
+  <footer id="footer">
+    <div class="container">
+      <p class="footer-text">© Damian Alexander Isaac</p>
+      <i class="fab fa-github-square"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
