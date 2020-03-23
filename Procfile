@@ -1,1 +1,1 @@
-web: node index.php
+web: index.js
