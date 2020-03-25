@@ -56,22 +56,22 @@
             <h1 class="card-title">Contact</h1>
             <span class="tags">&#60;/h1&#62;</span>
 
-            <form id="contact-form" method="post" action="handler.php">
+            <form id="contact-form" method="POST" action="https://formspree.io/mrgljekl">
               <div class="form-group">
-                <label name="name" class="contact-label">Name</label>
-                <input for="name" type="text" class="form-control" placeholder="Name" id="usr">
+                <label class="contact-label">Name</label>
+                <input name="name" type="text" class="form-control" placeholder="Name" id="usr">
               </div>
               <div class="form-group">
-                <label name="subject" class="contact-label">Subject</label>
-                <input type="text" class="form-control" placeholder="Subject" id="subject">
+                <label class="contact-label">Subject</label>
+                <input name="subject" type="text" class="form-control" placeholder="Subject" id="subject">
               </div>
               <div class="form-group">
-                <label name="email" class="contact-label">Email</label>
-                <input for="email" type="email" class="form-control" placeholder="Email" id="email">
+                <label class="contact-label">Email</label>
+                <input name="_replyto" type="email" class="form-control" placeholder="Email" id="email">
               </div>
               <div class="form-group">
-                <label name="message" class="contact-label">Message</label>
-                <textarea class="form-control" rows="10" placeholder="Message" id="message"></textarea>
+                <label class="contact-label">Message</label>
+                <textarea name="message" class="form-control" rows="10" placeholder="Message" id="message"></textarea>
               </div>
               <button type="submit" name="submit" class="btn contact-button"><span class="tags">&#60;</span>Submit<span
                   class="tags">&#62;</span></button>
